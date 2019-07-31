@@ -1,0 +1,92 @@
+
+body {
+	font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+	color:white;
+	margin-top:30px;
+	font-size:2em;
+}
+
+main {
+	position:relative;
+	width:100%;
+	text-align:center;
+	top:30px;
+}
+
+.mainCon {
+    position: relative;
+    min-height: 100vh;
+    overflow: hidden;
+}
+
+.panel {
+	position: relative;
+    overflow: hidden;
+    background: #27272f url(../images/bg.png) no-repeat center top !important;
+    background-size: 100% auto !important;
+}
+
+.headerText {
+	position: relative;
+	width: 90%;
+	color: white;
+	padding: 55vw 0 5vw 0;
+	margin: auto auto;
+    line-height: 1.4;
+	font-size: 2em;
+}
+
+#imageContainer {
+	width:600px;
+	height:489px;
+	background-color:grey;
+	margin:0 auto;
+	overflow:hidden;
+}
+
+#bioImages { position:relative; width:4000px; transition: all .5s; }
+#bioImages img { float:left; }
+
+.bio-info {
+	color: white; 
+	width: 75%; 
+	font-size: 1.85em; 
+	line-height: 1.5;
+	margin: 10px auto 0 auto;
+}
+
+#bottomNav { margin-top:30px; }
+
+#navList li {
+	display:inline;
+	list-style-type:none;
+	padding:0px 10px;
+	cursor:pointer;
+}
+
+.bio-name {
+	font-size: 45px;
+}
+
+
+
+.teamContainer {
+	width:51px;
+	height:54px;
+	display:inline-block;
+	overflow:hidden;
+	background-image:url(../images/button.png);
+	background-repeat:no-repeat;
+	transition:transform .3s;
+	-webkit-transition:-webkit-transform .3s;
+	-moz-transition:-moz-transform .3s;
+}
+
+.HK { background-position:0px -54px; }
+.HK:hover { background-position:0px 0px; }
+
+.CD { background-position:-54px -54px; }
+.CD:hover { background-position:-54px 0px; }
