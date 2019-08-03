@@ -1,5 +1,3 @@
-# Kim_H_Dockstader_C-TeamPage
-
 # Team Bio Page
 
 Create a web page that introduces team members using JavaScript
